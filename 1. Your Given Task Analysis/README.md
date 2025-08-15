@@ -35,3 +35,6 @@ This project implements **sentiment analysis** on a dataset of movie reviews, cl
 
 ## Dataset
 [Click here open Dataset](https://drive.google.com/drive/folders/1NcOQ0I0kJwi1bM1HDQvgA0cgkYHQL35s)
+
+## Task Report
+[📄 View Full Report (PDF)](https://github.com/Dulal-CSEcode/AI-ML-Engineer-position-at-Backbencher-Studio/blob/main/1.%20Your%20Given%20Task%20Analysis/Source%20code%20and%20Output%20for%20Sentiment%20Analysis%20on%20Movie%20Reviews.pdf)
