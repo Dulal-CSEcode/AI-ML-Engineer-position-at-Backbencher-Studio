@@ -1,6 +1,3 @@
-## AI-ML-Engineer-position-at-Backbencher-Studio
-
-
 # Sentiment Analysis on Movie Reviews
 
 ## Overview
