@@ -1,33 +1,36 @@
-# Sentiment Analysis on Movie Reviews
+# Sentiment Analysis Showdown: Traditional SVM vs. Deep Learning (BERT)
 
 ## Overview
-This project implements **sentiment analysis** on a dataset of movie reviews, classifying each review as **positive** or **negative**. The main objective is to process raw text data, apply natural language processing (NLP) techniques, and build a machine learning model that accurately predicts sentiment.
+This project compares the performance of a **traditional machine learning approach** (Support Vector Machine) with a **deep learning transformer-based model** (BERT) for sentiment analysis on textual data. The goal is to highlight the differences in accuracy, training time, and generalization between classical NLP methods and state-of-the-art deep learning models.
 
 ## Approach
-1. **Data Preprocessing**  
-   - Tokenization and stopword removal  
-   - Lemmatization for word normalization  
-   - Vectorization using **TF-IDF** to convert text into numerical features  
-   
-2. **Model Training**  
-   - Implemented **Logistic Regression** as the classification algorithm  
-   - Trained on labeled movie review datasets  
+1. **Data Preprocessing**
+   - Text cleaning: lowercasing, punctuation removal, stopword removal
+   - Tokenization
+   - For SVM: Feature extraction using **TF-IDF vectorization**
+   - For BERT: WordPiece tokenization with pre-trained BERT tokenizer
 
-3. **Evaluation**  
-   - Measured accuracy, precision, recall, and F1-score  
-   - Tested on unseen data to evaluate generalization capability  
+2. **Model Training**
+   - **SVM Model**: Linear kernel trained on TF-IDF features
+   - **BERT Model**: Fine-tuned pre-trained BERT for sequence classification
+
+3. **Evaluation**
+   - Metrics: Accuracy, Precision, Recall, F1-score
+   - Direct performance comparison between SVM and BERT
 
 ## Tools & Libraries
-- **Python 3**  
-- **NLTK** – Natural Language Toolkit for text preprocessing  
-- **Scikit-learn** – Machine learning models and evaluation metrics  
-- **Pandas / NumPy** – Data handling and manipulation  
-- **Matplotlib / Seaborn** – Data visualization  
+- **Python 3**
+- **Scikit-learn** – SVM implementation and evaluation metrics
+- **NLTK** – Text preprocessing
+- **Transformers (Hugging Face)** – BERT model and tokenizer
+- **PyTorch** – Deep learning framework for BERT training
+- **Pandas / NumPy** – Data manipulation
+- **Matplotlib / Seaborn** – Result visualization
 
 ## Results
-- Achieved **high accuracy** (above 85%) in predicting sentiment on test data  
-- Confusion matrix showed a balanced classification for both positive and negative reviews  
-- Demonstrated the effectiveness of TF-IDF + Logistic Regression for text classification tasks  
+- **SVM**: Faster training, good baseline accuracy
+- **BERT**: Higher accuracy and better contextual understanding, but more computationally expensive
+- The comparison demonstrates the trade-off between **speed** and **accuracy** in NLP model selection
 
 
 ## Google Colab Notebook
