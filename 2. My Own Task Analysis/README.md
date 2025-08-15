@@ -43,5 +43,5 @@ This project compares the performance of a **traditional machine learning approa
 [📄 View Full Report (PDF)](Source%20code%20and%20Output%20for%20Sentiment%20Analysis%20Showdown%20Traditional%20SVM%20vs.%20Deep%20Learning%20(BERT).pdf)
 
 ## Project Report
-[📄 View Full Report (PDF)](YOUR_PUBLIC_PDF_LINK)
+[📄 View Full Report (PDF)](https://github.com/Dulal-CSEcode/AI-ML-Engineer-position-at-Backbencher-Studio/blob/main/2.%20My%20Own%20Task%20Analysis/Sentiment%20Analysis%20Showdown_%20Traditional%20SVM%20vs.%20Deep%20Learning%20(BERT).pdf)
 
