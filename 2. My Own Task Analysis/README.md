@@ -31,7 +31,7 @@ This project implements **sentiment analysis** on a dataset of movie reviews, cl
 
 
 ## Google Colab Notebook
-[Click here to open in Colab](https://colab.research.google.com/drive/1Uc0ct4LFEkfd7RANcllHu55XZDUyUH9F#scrollTo=8nzXsYKpXhXx)
+[Click here to open in Colab](https://colab.research.google.com/drive/1MP4cUpXmNpx4DWKM5NYy9lLNlhaGpsb1)
 
 ## Dataset
-[Click here open Dataset](https://drive.google.com/drive/folders/1NcOQ0I0kJwi1bM1HDQvgA0cgkYHQL35s)
+[Click here open Dataset](https://drive.google.com/drive/folders/16xn2rYSayqrugNp138Sq1Hairzxq3pCS)
